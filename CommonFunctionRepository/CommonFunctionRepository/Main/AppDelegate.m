@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "MainViewController.h"
 
 @interface AppDelegate ()
 
@@ -14,10 +15,19 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    // 配置首页
+    [self configureOriginalWindow];
+    
     return YES;
+}
+
+- (void)configureOriginalWindow {
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    MainViewController *mainVC = [[MainViewController alloc] init];
+    self.window.rootViewController = mainVC;
+    [self.window makeKeyAndVisible];
 }
 
 

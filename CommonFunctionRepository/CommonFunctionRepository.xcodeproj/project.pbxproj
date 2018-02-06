@@ -7,8 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B05D406202196BE00377973 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B05D405202196BE00377973 /* MainViewController.m */; };
+		5B47AE232029A3DB003CA421 /* BlockTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B47AE222029A3DB003CA421 /* BlockTestViewController.m */; };
+		5B71D95C2021AEC600902EBE /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B71D95B2021AEC600902EBE /* BaseViewController.m */; };
+		5B71D9602021B3EB00902EBE /* JNPhoneInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B71D95F2021B3EB00902EBE /* JNPhoneInfo.m */; };
+		5B71D9632021BC2E00902EBE /* JNNetworkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B71D9622021BC2E00902EBE /* JNNetworkTools.m */; };
+		5B71D9662021BCA100902EBE /* JNUtilHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B71D9652021BCA100902EBE /* JNUtilHeader.m */; };
+		5B8E1D7D2024335B00BD2A18 /* GCDTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8E1D7C2024335B00BD2A18 /* GCDTestViewController.m */; };
+		5B8E1D802024502000BD2A18 /* ThreadTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8E1D7F2024502000BD2A18 /* ThreadTestViewController.m */; };
+		5B8E1D832024578100BD2A18 /* MutiThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8E1D822024578100BD2A18 /* MutiThreadViewController.m */; };
+		5B8E1D86202465EA00BD2A18 /* ThreadCommunicationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8E1D85202465EA00BD2A18 /* ThreadCommunicationViewController.m */; };
 		5BF55150201B2976005696E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF5514F201B2976005696E4 /* AppDelegate.m */; };
-		5BF55153201B2976005696E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF55152201B2976005696E4 /* ViewController.m */; };
 		5BF55156201B2976005696E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF55154201B2976005696E4 /* Main.storyboard */; };
 		5BF55158201B2976005696E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BF55157201B2976005696E4 /* Assets.xcassets */; };
 		5BF5515B201B2976005696E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF55159201B2976005696E4 /* LaunchScreen.storyboard */; };
@@ -35,11 +44,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B05D404202196BE00377973 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		5B05D405202196BE00377973 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		5B47AE212029A3DB003CA421 /* BlockTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockTestViewController.h; sourceTree = "<group>"; };
+		5B47AE222029A3DB003CA421 /* BlockTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockTestViewController.m; sourceTree = "<group>"; };
+		5B71D95A2021AEC600902EBE /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		5B71D95B2021AEC600902EBE /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		5B71D95E2021B3EB00902EBE /* JNPhoneInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNPhoneInfo.h; sourceTree = "<group>"; };
+		5B71D95F2021B3EB00902EBE /* JNPhoneInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNPhoneInfo.m; sourceTree = "<group>"; };
+		5B71D9612021BC2E00902EBE /* JNNetworkTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNNetworkTools.h; sourceTree = "<group>"; };
+		5B71D9622021BC2E00902EBE /* JNNetworkTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNNetworkTools.m; sourceTree = "<group>"; };
+		5B71D9642021BCA100902EBE /* JNUtilHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNUtilHeader.h; sourceTree = "<group>"; };
+		5B71D9652021BCA100902EBE /* JNUtilHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNUtilHeader.m; sourceTree = "<group>"; };
+		5B8E1D7B2024335B00BD2A18 /* GCDTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDTestViewController.h; sourceTree = "<group>"; };
+		5B8E1D7C2024335B00BD2A18 /* GCDTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDTestViewController.m; sourceTree = "<group>"; };
+		5B8E1D7E2024502000BD2A18 /* ThreadTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadTestViewController.h; sourceTree = "<group>"; };
+		5B8E1D7F2024502000BD2A18 /* ThreadTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadTestViewController.m; sourceTree = "<group>"; };
+		5B8E1D812024578100BD2A18 /* MutiThreadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MutiThreadViewController.h; sourceTree = "<group>"; };
+		5B8E1D822024578100BD2A18 /* MutiThreadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutiThreadViewController.m; sourceTree = "<group>"; };
+		5B8E1D84202465EA00BD2A18 /* ThreadCommunicationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadCommunicationViewController.h; sourceTree = "<group>"; };
+		5B8E1D85202465EA00BD2A18 /* ThreadCommunicationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadCommunicationViewController.m; sourceTree = "<group>"; };
 		5BF5514B201B2976005696E4 /* CommonFunctionRepository.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommonFunctionRepository.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF5514E201B2976005696E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5BF5514F201B2976005696E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5BF55151201B2976005696E4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5BF55152201B2976005696E4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5BF55155201B2976005696E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BF55157201B2976005696E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BF5515A201B2976005696E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -78,6 +105,114 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B05D3FB202174A600377973 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5BF5514E201B2976005696E4 /* AppDelegate.h */,
+				5BF5514F201B2976005696E4 /* AppDelegate.m */,
+				5B05D404202196BE00377973 /* MainViewController.h */,
+				5B05D405202196BE00377973 /* MainViewController.m */,
+				5B05D400202174A600377973 /* Module */,
+				5B05D3FD202174A600377973 /* CommonModel */,
+				5B05D3FE202174A600377973 /* CommonView */,
+				5B71D9592021AEBC00902EBE /* CommonController */,
+				5B05D3FF202174A600377973 /* Libs */,
+				5B05D3FC202174A600377973 /* Categories */,
+				5B71D95D2021AF0200902EBE /* Utils */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5B05D3FC202174A600377973 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		5B05D3FD202174A600377973 /* CommonModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CommonModel;
+			sourceTree = "<group>";
+		};
+		5B05D3FE202174A600377973 /* CommonView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CommonView;
+			sourceTree = "<group>";
+		};
+		5B05D3FF202174A600377973 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		5B05D400202174A600377973 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				5B47AE202029A3C8003CA421 /* Block */,
+				5B8E1D7A2024333F00BD2A18 /* GCD */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		5B05D403202174B500377973 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5B47AE202029A3C8003CA421 /* Block */ = {
+			isa = PBXGroup;
+			children = (
+				5B47AE212029A3DB003CA421 /* BlockTestViewController.h */,
+				5B47AE222029A3DB003CA421 /* BlockTestViewController.m */,
+			);
+			path = Block;
+			sourceTree = "<group>";
+		};
+		5B71D9592021AEBC00902EBE /* CommonController */ = {
+			isa = PBXGroup;
+			children = (
+				5B71D95A2021AEC600902EBE /* BaseViewController.h */,
+				5B71D95B2021AEC600902EBE /* BaseViewController.m */,
+			);
+			path = CommonController;
+			sourceTree = "<group>";
+		};
+		5B71D95D2021AF0200902EBE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5B71D9642021BCA100902EBE /* JNUtilHeader.h */,
+				5B71D9652021BCA100902EBE /* JNUtilHeader.m */,
+				5B71D95E2021B3EB00902EBE /* JNPhoneInfo.h */,
+				5B71D95F2021B3EB00902EBE /* JNPhoneInfo.m */,
+				5B71D9612021BC2E00902EBE /* JNNetworkTools.h */,
+				5B71D9622021BC2E00902EBE /* JNNetworkTools.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		5B8E1D7A2024333F00BD2A18 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				5B8E1D7E2024502000BD2A18 /* ThreadTestViewController.h */,
+				5B8E1D7F2024502000BD2A18 /* ThreadTestViewController.m */,
+				5B8E1D7B2024335B00BD2A18 /* GCDTestViewController.h */,
+				5B8E1D7C2024335B00BD2A18 /* GCDTestViewController.m */,
+				5B8E1D812024578100BD2A18 /* MutiThreadViewController.h */,
+				5B8E1D822024578100BD2A18 /* MutiThreadViewController.m */,
+				5B8E1D84202465EA00BD2A18 /* ThreadCommunicationViewController.h */,
+				5B8E1D85202465EA00BD2A18 /* ThreadCommunicationViewController.m */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
 		5BF55142201B2975005696E4 = {
 			isa = PBXGroup;
 			children = (
@@ -101,15 +236,13 @@
 		5BF5514D201B2976005696E4 /* CommonFunctionRepository */ = {
 			isa = PBXGroup;
 			children = (
-				5BF5514E201B2976005696E4 /* AppDelegate.h */,
-				5BF5514F201B2976005696E4 /* AppDelegate.m */,
-				5BF55151201B2976005696E4 /* ViewController.h */,
-				5BF55152201B2976005696E4 /* ViewController.m */,
-				5BF55154201B2976005696E4 /* Main.storyboard */,
+				5B05D3FB202174A600377973 /* Main */,
+				5B05D403202174B500377973 /* Resources */,
+				5BF5515D201B2976005696E4 /* main.m */,
 				5BF55157201B2976005696E4 /* Assets.xcassets */,
 				5BF55159201B2976005696E4 /* LaunchScreen.storyboard */,
 				5BF5515C201B2976005696E4 /* Info.plist */,
-				5BF5515D201B2976005696E4 /* main.m */,
+				5BF55154201B2976005696E4 /* Main.storyboard */,
 			);
 			path = CommonFunctionRepository;
 			sourceTree = "<group>";
@@ -265,9 +398,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BF55153201B2976005696E4 /* ViewController.m in Sources */,
 				5BF5515E201B2976005696E4 /* main.m in Sources */,
+				5B71D95C2021AEC600902EBE /* BaseViewController.m in Sources */,
+				5B8E1D802024502000BD2A18 /* ThreadTestViewController.m in Sources */,
+				5B8E1D832024578100BD2A18 /* MutiThreadViewController.m in Sources */,
+				5B71D9632021BC2E00902EBE /* JNNetworkTools.m in Sources */,
 				5BF55150201B2976005696E4 /* AppDelegate.m in Sources */,
+				5B71D9602021B3EB00902EBE /* JNPhoneInfo.m in Sources */,
+				5B05D406202196BE00377973 /* MainViewController.m in Sources */,
+				5B71D9662021BCA100902EBE /* JNUtilHeader.m in Sources */,
+				5B8E1D7D2024335B00BD2A18 /* GCDTestViewController.m in Sources */,
+				5B47AE232029A3DB003CA421 /* BlockTestViewController.m in Sources */,
+				5B8E1D86202465EA00BD2A18 /* ThreadCommunicationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +575,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6QK53T399Q;
 				INFOPLIST_FILE = CommonFunctionRepository/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jntc.CommonFunctionRepository;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,6 +590,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6QK53T399Q;
 				INFOPLIST_FILE = CommonFunctionRepository/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jntc.CommonFunctionRepository;
 				PRODUCT_NAME = "$(TARGET_NAME)";
