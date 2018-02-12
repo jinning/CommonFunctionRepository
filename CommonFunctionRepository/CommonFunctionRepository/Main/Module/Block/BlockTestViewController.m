@@ -19,7 +19,7 @@ typedef int(^TotalResult)(int x, int y);
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.view.backgroundColor = [UIColor whiteColor];
     //自定义一个block
     int (^testBlock)(int a, int b) = ^(int a, int b) {
         //block 无法修改外部变量，要想修改外部变量，变量需要用 __block 修饰
@@ -31,6 +31,7 @@ typedef int(^TotalResult)(int x, int y);
     NSLog(@"%zd", result);
     
     SayHello hello = ^() {
+        NSLog(@"helloWorld");
         NSLog(@"helloWorld");
     };
     
@@ -48,8 +49,9 @@ typedef int(^TotalResult)(int x, int y);
 }
 
 //Block 作为参数传递
--(void) useBlockForOC:(int(^)(int x, int y))aBlock {
-    aBlock(300, 200);
+-(void) useBlockForOC:(TotalResult)aBlock {
+    //在此处给block传入参数
+    NSLog(@"result = %d", aBlock(300,200));
 }
 
 - (void)didReceiveMemoryWarning {

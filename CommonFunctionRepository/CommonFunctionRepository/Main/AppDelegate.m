@@ -26,7 +26,8 @@
 - (void)configureOriginalWindow {
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     MainViewController *mainVC = [[MainViewController alloc] init];
-    self.window.rootViewController = mainVC;
+    UINavigationController *naVC = [[UINavigationController alloc] initWithRootViewController:mainVC];
+    self.window.rootViewController = naVC;
     [self.window makeKeyAndVisible];
 }
 

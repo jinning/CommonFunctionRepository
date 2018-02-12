@@ -13,6 +13,16 @@
 		5B71D9602021B3EB00902EBE /* JNPhoneInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B71D95F2021B3EB00902EBE /* JNPhoneInfo.m */; };
 		5B71D9632021BC2E00902EBE /* JNNetworkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B71D9622021BC2E00902EBE /* JNNetworkTools.m */; };
 		5B71D9662021BCA100902EBE /* JNUtilHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B71D9652021BCA100902EBE /* JNUtilHeader.m */; };
+		5B88388B202A937B004E63A9 /* JNAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B88388A202A937B004E63A9 /* JNAlertView.m */; };
+		5B883890202ADCF9004E63A9 /* NavigationMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B88388F202ADCF9004E63A9 /* NavigationMainViewController.m */; };
+		5B883896202ADFA6004E63A9 /* Test01AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B883895202ADFA6004E63A9 /* Test01AViewController.m */; };
+		5B883899202ADFB0004E63A9 /* Test01BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B883898202ADFB0004E63A9 /* Test01BViewController.m */; };
+		5B88389C202ADFBA004E63A9 /* Test02AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B88389B202ADFBA004E63A9 /* Test02AViewController.m */; };
+		5B88389F202ADFC3004E63A9 /* Test02BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B88389E202ADFC3004E63A9 /* Test02BViewController.m */; };
+		5B8838A2202ADFCD004E63A9 /* Test03AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8838A1202ADFCD004E63A9 /* Test03AViewController.m */; };
+		5B8838A5202ADFD5004E63A9 /* Test03BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8838A4202ADFD5004E63A9 /* Test03BViewController.m */; };
+		5B8838A8202AE1E2004E63A9 /* Test01PresentTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8838A7202AE1E1004E63A9 /* Test01PresentTransition.m */; };
+		5B8838AB202B0323004E63A9 /* JNInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8838AA202B0322004E63A9 /* JNInteractiveTransition.m */; };
 		5B8E1D7D2024335B00BD2A18 /* GCDTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8E1D7C2024335B00BD2A18 /* GCDTestViewController.m */; };
 		5B8E1D802024502000BD2A18 /* ThreadTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8E1D7F2024502000BD2A18 /* ThreadTestViewController.m */; };
 		5B8E1D832024578100BD2A18 /* MutiThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8E1D822024578100BD2A18 /* MutiThreadViewController.m */; };
@@ -56,6 +66,26 @@
 		5B71D9622021BC2E00902EBE /* JNNetworkTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNNetworkTools.m; sourceTree = "<group>"; };
 		5B71D9642021BCA100902EBE /* JNUtilHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNUtilHeader.h; sourceTree = "<group>"; };
 		5B71D9652021BCA100902EBE /* JNUtilHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNUtilHeader.m; sourceTree = "<group>"; };
+		5B883889202A937B004E63A9 /* JNAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNAlertView.h; sourceTree = "<group>"; };
+		5B88388A202A937B004E63A9 /* JNAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNAlertView.m; sourceTree = "<group>"; };
+		5B88388E202ADCF9004E63A9 /* NavigationMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationMainViewController.h; sourceTree = "<group>"; };
+		5B88388F202ADCF9004E63A9 /* NavigationMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationMainViewController.m; sourceTree = "<group>"; };
+		5B883894202ADFA6004E63A9 /* Test01AViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test01AViewController.h; sourceTree = "<group>"; };
+		5B883895202ADFA6004E63A9 /* Test01AViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test01AViewController.m; sourceTree = "<group>"; };
+		5B883897202ADFB0004E63A9 /* Test01BViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test01BViewController.h; sourceTree = "<group>"; };
+		5B883898202ADFB0004E63A9 /* Test01BViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test01BViewController.m; sourceTree = "<group>"; };
+		5B88389A202ADFBA004E63A9 /* Test02AViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test02AViewController.h; sourceTree = "<group>"; };
+		5B88389B202ADFBA004E63A9 /* Test02AViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test02AViewController.m; sourceTree = "<group>"; };
+		5B88389D202ADFC3004E63A9 /* Test02BViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test02BViewController.h; sourceTree = "<group>"; };
+		5B88389E202ADFC3004E63A9 /* Test02BViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test02BViewController.m; sourceTree = "<group>"; };
+		5B8838A0202ADFCD004E63A9 /* Test03AViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test03AViewController.h; sourceTree = "<group>"; };
+		5B8838A1202ADFCD004E63A9 /* Test03AViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test03AViewController.m; sourceTree = "<group>"; };
+		5B8838A3202ADFD5004E63A9 /* Test03BViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test03BViewController.h; sourceTree = "<group>"; };
+		5B8838A4202ADFD5004E63A9 /* Test03BViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test03BViewController.m; sourceTree = "<group>"; };
+		5B8838A6202AE1E1004E63A9 /* Test01PresentTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test01PresentTransition.h; sourceTree = "<group>"; };
+		5B8838A7202AE1E1004E63A9 /* Test01PresentTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test01PresentTransition.m; sourceTree = "<group>"; };
+		5B8838A9202B0322004E63A9 /* JNInteractiveTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNInteractiveTransition.h; sourceTree = "<group>"; };
+		5B8838AA202B0322004E63A9 /* JNInteractiveTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNInteractiveTransition.m; sourceTree = "<group>"; };
 		5B8E1D7B2024335B00BD2A18 /* GCDTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDTestViewController.h; sourceTree = "<group>"; };
 		5B8E1D7C2024335B00BD2A18 /* GCDTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDTestViewController.m; sourceTree = "<group>"; };
 		5B8E1D7E2024502000BD2A18 /* ThreadTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadTestViewController.h; sourceTree = "<group>"; };
@@ -119,6 +149,7 @@
 				5B05D3FF202174A600377973 /* Libs */,
 				5B05D3FC202174A600377973 /* Categories */,
 				5B71D95D2021AF0200902EBE /* Utils */,
+				5B883884202A933D004E63A9 /* ThirdParty */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -154,6 +185,7 @@
 		5B05D400202174A600377973 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				5B88388D202ADCE4004E63A9 /* NavigationTest */,
 				5B47AE202029A3C8003CA421 /* Block */,
 				5B8E1D7A2024333F00BD2A18 /* GCD */,
 			);
@@ -196,6 +228,72 @@
 				5B71D9622021BC2E00902EBE /* JNNetworkTools.m */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		5B883884202A933D004E63A9 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				5B883888202A937B004E63A9 /* JNAlertView */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		5B883888202A937B004E63A9 /* JNAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				5B883889202A937B004E63A9 /* JNAlertView.h */,
+				5B88388A202A937B004E63A9 /* JNAlertView.m */,
+			);
+			path = JNAlertView;
+			sourceTree = "<group>";
+		};
+		5B88388D202ADCE4004E63A9 /* NavigationTest */ = {
+			isa = PBXGroup;
+			children = (
+				5B88388E202ADCF9004E63A9 /* NavigationMainViewController.h */,
+				5B88388F202ADCF9004E63A9 /* NavigationMainViewController.m */,
+				5B883893202ADF9A004E63A9 /* Test01 */,
+				5B883891202ADF99004E63A9 /* Test02 */,
+				5B883892202ADF99004E63A9 /* Test03 */,
+				5B8838A9202B0322004E63A9 /* JNInteractiveTransition.h */,
+				5B8838AA202B0322004E63A9 /* JNInteractiveTransition.m */,
+			);
+			path = NavigationTest;
+			sourceTree = "<group>";
+		};
+		5B883891202ADF99004E63A9 /* Test02 */ = {
+			isa = PBXGroup;
+			children = (
+				5B88389A202ADFBA004E63A9 /* Test02AViewController.h */,
+				5B88389B202ADFBA004E63A9 /* Test02AViewController.m */,
+				5B88389D202ADFC3004E63A9 /* Test02BViewController.h */,
+				5B88389E202ADFC3004E63A9 /* Test02BViewController.m */,
+			);
+			path = Test02;
+			sourceTree = "<group>";
+		};
+		5B883892202ADF99004E63A9 /* Test03 */ = {
+			isa = PBXGroup;
+			children = (
+				5B8838A0202ADFCD004E63A9 /* Test03AViewController.h */,
+				5B8838A1202ADFCD004E63A9 /* Test03AViewController.m */,
+				5B8838A3202ADFD5004E63A9 /* Test03BViewController.h */,
+				5B8838A4202ADFD5004E63A9 /* Test03BViewController.m */,
+			);
+			path = Test03;
+			sourceTree = "<group>";
+		};
+		5B883893202ADF9A004E63A9 /* Test01 */ = {
+			isa = PBXGroup;
+			children = (
+				5B883894202ADFA6004E63A9 /* Test01AViewController.h */,
+				5B883895202ADFA6004E63A9 /* Test01AViewController.m */,
+				5B883897202ADFB0004E63A9 /* Test01BViewController.h */,
+				5B883898202ADFB0004E63A9 /* Test01BViewController.m */,
+				5B8838A6202AE1E1004E63A9 /* Test01PresentTransition.h */,
+				5B8838A7202AE1E1004E63A9 /* Test01PresentTransition.m */,
+			);
+			path = Test01;
 			sourceTree = "<group>";
 		};
 		5B8E1D7A2024333F00BD2A18 /* GCD */ = {
@@ -401,15 +499,25 @@
 				5BF5515E201B2976005696E4 /* main.m in Sources */,
 				5B71D95C2021AEC600902EBE /* BaseViewController.m in Sources */,
 				5B8E1D802024502000BD2A18 /* ThreadTestViewController.m in Sources */,
+				5B883896202ADFA6004E63A9 /* Test01AViewController.m in Sources */,
+				5B883899202ADFB0004E63A9 /* Test01BViewController.m in Sources */,
 				5B8E1D832024578100BD2A18 /* MutiThreadViewController.m in Sources */,
+				5B8838A5202ADFD5004E63A9 /* Test03BViewController.m in Sources */,
 				5B71D9632021BC2E00902EBE /* JNNetworkTools.m in Sources */,
 				5BF55150201B2976005696E4 /* AppDelegate.m in Sources */,
+				5B8838AB202B0323004E63A9 /* JNInteractiveTransition.m in Sources */,
+				5B8838A2202ADFCD004E63A9 /* Test03AViewController.m in Sources */,
 				5B71D9602021B3EB00902EBE /* JNPhoneInfo.m in Sources */,
+				5B88389F202ADFC3004E63A9 /* Test02BViewController.m in Sources */,
 				5B05D406202196BE00377973 /* MainViewController.m in Sources */,
 				5B71D9662021BCA100902EBE /* JNUtilHeader.m in Sources */,
 				5B8E1D7D2024335B00BD2A18 /* GCDTestViewController.m in Sources */,
+				5B88389C202ADFBA004E63A9 /* Test02AViewController.m in Sources */,
+				5B88388B202A937B004E63A9 /* JNAlertView.m in Sources */,
 				5B47AE232029A3DB003CA421 /* BlockTestViewController.m in Sources */,
 				5B8E1D86202465EA00BD2A18 /* ThreadCommunicationViewController.m in Sources */,
+				5B8838A8202AE1E2004E63A9 /* Test01PresentTransition.m in Sources */,
+				5B883890202ADCF9004E63A9 /* NavigationMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

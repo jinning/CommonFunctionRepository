@@ -1,22 +1,22 @@
 //
-//  BaseViewController.m
+//  Test02BViewController.m
 //  CommonFunctionRepository
 //
-//  Created by Renjie Zhou on 2018/1/31.
+//  Created by Renjie Zhou on 2018/2/7.
 //  Copyright © 2018年 JinNing. All rights reserved.
 //
 
-#import "BaseViewController.h"
+#import "Test02BViewController.h"
 
-@interface BaseViewController ()
+@interface Test02BViewController ()
 
 @end
 
-@implementation BaseViewController
+@implementation Test02BViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
